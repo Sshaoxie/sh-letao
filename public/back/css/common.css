@@ -115,19 +115,16 @@ ul {
 .lt_main{
   width:100%;
   height:1000px;
-  background-color:pink;
   padding-left:180px;
   padding-top: 50px;
   transition: all 1s;
+  z-index: 998;
 }
 
 .lt_main.hidemenu {
   padding-left: 0px;
 }
-.lt_topbar{
-  transition: all 1s;
 
-}
 
 .lt_main .lt-topbar {
   width: 100%;
@@ -138,6 +135,7 @@ ul {
   left:0;
   transition: all 1s;
   padding-left: 180px;
+  z-index: 998;
 }
 .lt_main .lt-topbar.hidemenu{
   padding-left:0;
@@ -157,4 +155,12 @@ ul {
 
 .lt_main .breadcrumb {
   margin-top: 20px;
+}
+
+
+.echarts-1,
+.echarts-2{
+  width: 48%;
+  height: 400px;
+  background-color: pink;
 }
